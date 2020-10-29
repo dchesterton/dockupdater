@@ -93,7 +93,7 @@ Override the containers/services to [start](Options.md#start) after an update. S
 **Label:** `dockupdater.stops`  
 **Availability:** `containers` `services`  
 **Equivalent option:** [`--stop`](Options.md#stop)  
-**Example:** `dockupdater.starts: "weight:1,Container1 Service2 weight:1,Service1"`  
+**Example:** `dockupdater.stops: "weight:1,Container1 Service2 weight:1,Service1"`  
 
 Override the containers/services to [stop](Options.md#stop) before an update. Set multiple container/service name or [regex pattern](https://pythex.org/) by separate it with a space. Can be specified with a weight. See the [`--stop option`](Options.md#stop) for more informations.
 
